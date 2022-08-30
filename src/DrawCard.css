@@ -1,0 +1,42 @@
+.DrawCard {
+  height: 400px;
+  width: 775px;
+  outline: 5px solid crimson;
+  background-color: navy;
+  margin: 0 auto;
+  padding: 11px;
+  align-items: center;
+}
+
+.DrawCard h1 {
+  color: ghostwhite;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.DrawCard div {
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.DrawCard button {
+  display: inline-block;
+  background-color: ghostwhite;
+  color: navy;
+  padding: 8px;
+}
+
+.DrawCard button:hover {
+  cursor: pointer;
+}
+
+.DrawCard .AutoDrawBtn {
+  float: right;
+}
+
+.DrawCard .DrawCardBtn {
+  float: left;
+}
